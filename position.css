@@ -1,0 +1,31 @@
+p.static{
+	position:static;
+	border:2px solid black;
+}
+div.relative{
+	position:relative;
+	border:5px solid black;ss
+	width:400px;
+	height:200px;
+}
+h2.fixed{
+	position:fixed;
+	border:2px solid #73AD21;
+	bottom:0;
+	right:0;
+}
+div.absolute{
+	position:absolute;
+	width:200px;
+	height:100px;
+	right:0;
+	border:2px solid black;
+	margin-right:3px;
+	top:100px;
+}
+div.sticky{
+	position:sticky;
+	border:2px solid black;
+	width:50px
+	height:20px;
+}
